@@ -18,8 +18,6 @@ export default class extends Component {
     await console.log(this.state.data);
     myURL = "https://swapi.co/api/"
 
-
-    // this.exe1()
   }
 
   exe1 = () => {
