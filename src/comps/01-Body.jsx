@@ -7,10 +7,12 @@ import Logo from './img/one.jpg'
 
 export default class extends Component {
   render() {
+    const MainSty = { backgroundColor: "black", textAlign: "center", color: "white", height: "100vh" }
+    const PicSty ={ paddingTop: "25px" }
     return(
-      <div>
-        <img src={Logo} alt="miss pic"/>
-        <h2>StarWars Info.</h2>
+      <div style={MainSty}>
+        <img style={PicSty} src={Logo} alt="miss pic"/>
+        <h1>StarWars Info.</h1>
 
           <Router>
             <div>

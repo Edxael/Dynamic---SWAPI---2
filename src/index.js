@@ -1,13 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 // --------------
-import SWMain from './comps/01-Body.jsx'
+import BodyComp from './comps/01-Body.jsx'
 
 const MainComp = ()=>{
   return(
     <div>
-      <div>Hello</div>
-      <SWMain/>
+      <BodyComp/>
     </div>
   )
 }
